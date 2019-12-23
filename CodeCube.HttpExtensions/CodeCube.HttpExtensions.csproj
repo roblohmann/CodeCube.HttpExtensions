@@ -7,6 +7,7 @@
     <PackageIconUrl>https://github.com/roblohmann/CodeCube.HttpExtensions/blob/master/nuget-icon.png?raw=true</PackageIconUrl>
     <PackageProjectUrl>https://github.com/roblohmann/CodeCube.HttpExtensions</PackageProjectUrl>
     <Copyright>Copyright 2019 Rob Lohmann &amp; Kim Visscher</Copyright>
+    <PackageTags>httpclient httpextensions</PackageTags>
   </PropertyGroup>
 
 </Project>
