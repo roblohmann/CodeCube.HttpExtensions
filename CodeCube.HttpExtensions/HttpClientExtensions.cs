@@ -15,6 +15,19 @@ namespace CodeCube.HttpExtensions
         /// <param name="requestContent">The content for the DELETE-request</param>
         /// <param name="cancellationToken">A cancellation token that can be used by other objects or thread to receive notification of cancellation.</param>
         /// <returns></returns>
+        public static async Task<HttpResponseMessage> DeleteWithBodyAsync(this HttpClient httpClient, string requestUri, StringContent requestContent, CancellationToken cancellationToken)
+        {
+            return await DeleteWithBodyAsync(httpClient, new Uri(requestUri), requestContent, cancellationToken);
+        }
+
+        /// <summary>
+        /// Send an asynchronous DELETE-request with a requestbody to the specified endpoint.
+        /// </summary>
+        /// <param name="httpClient">The HTTP-Client</param>
+        /// <param name="requestUri">The request URI.</param>
+        /// <param name="requestContent">The content for the DELETE-request</param>
+        /// <param name="cancellationToken">A cancellation token that can be used by other objects or thread to receive notification of cancellation.</param>
+        /// <returns></returns>
         public static async Task<HttpResponseMessage> DeleteWithBodyAsync(this HttpClient httpClient, Uri requestUri, StringContent requestContent, CancellationToken cancellationToken)
         {
             var requestMessage = new HttpRequestMessage
