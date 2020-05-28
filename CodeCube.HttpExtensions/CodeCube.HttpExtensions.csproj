@@ -11,4 +11,14 @@
     <RepositoryUrl>https://github.com/roblohmann/CodeCube.HttpExtensions</RepositoryUrl>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="nuget-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="nuget-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
