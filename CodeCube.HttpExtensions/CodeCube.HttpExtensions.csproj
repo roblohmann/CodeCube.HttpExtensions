@@ -5,16 +5,15 @@
     <Authors>Rob Lohmann</Authors>
     <Description>Small extension library which adds an DeleteWithBodyAsync method to your HttpClient</Description>
     <PackageProjectUrl>https://github.com/roblohmann/CodeCube.HttpExtensions</PackageProjectUrl>
-    <Copyright>Copyright 2019 Rob Lohmann &amp; Kim Visscher</Copyright>
+    <Copyright>Copyright 2019 - 2020 Rob Lohmann</Copyright>
     <PackageTags>httpclient httpextensions</PackageTags>
     <PackageIcon>nuget-icon.png</PackageIcon>
+    <PackageIconUrl>https://github.com/roblohmann/CodeCube.HttpExtensions/blob/master/nuget-icon.png?raw=true</PackageIconUrl>
     <RepositoryUrl>https://github.com/roblohmann/CodeCube.HttpExtensions</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="nuget-icon.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <None Include="../nuget-icon.png" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
-
+  
 </Project>
