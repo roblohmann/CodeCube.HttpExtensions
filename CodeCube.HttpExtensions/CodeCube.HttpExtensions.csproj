@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
-    <Authors>Rob Lohmann &amp; Kim Visscher</Authors>
+    <Authors>Rob Lohmann</Authors>
     <Description>Small extension library which adds an DeleteWithBodyAsync method to your HttpClient</Description>
     <PackageProjectUrl>https://github.com/roblohmann/CodeCube.HttpExtensions</PackageProjectUrl>
     <Copyright>Copyright 2019 Rob Lohmann &amp; Kim Visscher</Copyright>
