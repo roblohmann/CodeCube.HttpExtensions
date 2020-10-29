@@ -12,10 +12,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="nuget-icon.png" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="nuget-icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
