@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
     <Authors>Rob Lohmann</Authors>
     <Description>Small extension library which adds an DeleteWithBodyAsync method to your HttpClient</Description>
     <PackageProjectUrl>https://github.com/roblohmann/CodeCube.HttpExtensions</PackageProjectUrl>
-    <Copyright>Copyright 2019 - 2020 Rob Lohmann</Copyright>
+    <Copyright>Copyright 2019 - 2025 Rob Lohmann</Copyright>
     <PackageTags>httpclient httpextensions</PackageTags>
     <PackageIcon>nuget-icon.png</PackageIcon>
     <PackageIconUrl>https://github.com/roblohmann/CodeCube.HttpExtensions/blob/master/nuget-icon.png?raw=true</PackageIconUrl>
