@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Rob Lohmann</Authors>
     <Description>Small extension library which adds an DeleteWithBodyAsync method to your HttpClient</Description>
     <PackageProjectUrl>https://github.com/roblohmann/CodeCube.HttpExtensions</PackageProjectUrl>
