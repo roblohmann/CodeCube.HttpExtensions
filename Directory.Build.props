@@ -7,6 +7,7 @@
     <PackageProjectUrl>https://github.com/roblohmann/CodeCube.HttpExtensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/roblohmann/CodeCube.HttpExtensions</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <VersionPrefix>1.1.2</VersionPrefix>
   </PropertyGroup>
 
 </Project>
