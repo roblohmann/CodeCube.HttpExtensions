@@ -9,7 +9,6 @@
     <Copyright>Copyright 2019 - 2026 Rob Lohmann</Copyright>
     <PackageTags>httpclient httpextensions</PackageTags>
     <PackageIcon>nuget-icon.png</PackageIcon>
-    <PackageIconUrl>https://github.com/roblohmann/CodeCube.HttpExtensions/blob/master/nuget-icon.png?raw=true</PackageIconUrl>
     <RepositoryUrl>https://github.com/roblohmann/CodeCube.HttpExtensions</RepositoryUrl>
   </PropertyGroup>
 
